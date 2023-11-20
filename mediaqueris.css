@@ -1,0 +1,102 @@
+@media screen and (max-width: 900px) {
+
+    .hero-btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .span-1{
+        font-size: 1.8rem;
+    }
+    .span-2{
+        font-size: 1.2rem;
+    }
+    .span-3{
+        font-size: 1rem;
+    }
+    .hero{
+        padding: 0;
+    }
+    .first{
+        flex-direction: column;
+        height: 60vh;
+    }
+    .first img{
+        width: 250px;
+    }
+    .sec-img video{
+        width: 240px;
+        top: 0;
+    }
+    .second-img video{
+        width: 153px;
+        top: -41px;
+        left: 52px;
+    }
+    .sec-p h3{
+        font-size: 2rem;
+    }
+    .sec-p p{
+        font-size: 1rem;
+    }
+    .download {
+        top: 127px;
+        left: 48px;
+        padding: 0;
+        width: 147px;
+        height: 47px;
+        font-size: 10px;
+    }
+    .download img{
+        width: 29px;
+        height: 40px;
+    }
+    .faq h2{
+        font-size: 2.4rem;
+    }
+    .box{
+        font-size: 0.8rem;
+    }
+    #lang{
+        display: none;
+    }
+    .btn-2{
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        color: white;
+        background-color: rgba(23, 23, 23, 0.153);
+        border: 1px solid rgba(255, 255, 255, 0.368);
+        border-radius: 4px;
+        cursor: pointer;
+        padding: 8px 5px 0 5px;
+    }
+    .btn-sn{
+        padding: 5px;
+    }
+    footer{
+        font-family: 'Poppins', sans-serif;
+        width: 95vw;
+        height: 60vh;
+        font-size: 0.9rem;
+        color: rgb(255 255 255 / 70%);
+        font-weight: 300;
+    }
+    footer p{
+        width: 80vw;
+        margin: 20px 0 0 20px;
+        color: rgb(255 255 255 / 70%);
+    }
+    footer ul{
+        height: 400px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    a{
+        width: 170px;
+        height: 20px;
+        color: rgb(255 255 255 / 70%);
+    }
+    footer li{
+        padding: 10px 0 0 20px;
+    }
+}
