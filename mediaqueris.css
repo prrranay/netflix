@@ -1,5 +1,7 @@
 @media screen and (max-width: 900px) {
-
+    .nav img{
+        width: 20vw;
+    }
     .hero-btn{
         display: flex;
         flex-direction: column;
@@ -19,18 +21,23 @@
     .first{
         flex-direction: column;
         height: 60vh;
+
+    }
+    .rev{
+        flex-direction: column-reverse;
     }
     .first img{
-        width: 250px;
+        width: 80vw;
     }
     .sec-img video{
-        width: 240px;
-        top: 0;
+        width: 277px;
+        top: 31px;
+        right: 22px;
     }
     .second-img video{
-        width: 153px;
-        top: -41px;
-        left: 52px;
+        width: 207px;
+        top: -8px;
+        left: 65px;
     }
     .sec-p h3{
         font-size: 2rem;
@@ -39,22 +46,26 @@
         font-size: 1rem;
     }
     .download {
-        top: 127px;
-        left: 48px;
+        top: 174px;
+        left: 76px;
         padding: 0;
-        width: 147px;
-        height: 47px;
-        font-size: 10px;
+        width: 190px;
+        height: 63px;
+        font-size: 13px;
     }
     .download img{
-        width: 29px;
-        height: 40px;
+        width: 44px;
+        height: 60px;
     }
     .faq h2{
-        font-size: 2.4rem;
+        font-size: 1.8rem;
     }
     .box{
         font-size: 0.8rem;
+        font-size: 1.2rem;
+        padding: 24;
+        height: 1.2vh;
+        width: 80vw;
     }
     #lang{
         display: none;
@@ -68,10 +79,10 @@
         border: 1px solid rgba(255, 255, 255, 0.368);
         border-radius: 4px;
         cursor: pointer;
-        padding: 8px 5px 0 5px;
+        padding: 12px 7px 11px 7px;
     }
     .btn-sn{
-        padding: 5px;
+        padding: 12px;
     }
     footer{
         font-family: 'Poppins', sans-serif;
